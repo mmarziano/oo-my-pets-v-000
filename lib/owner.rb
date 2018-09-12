@@ -65,7 +65,7 @@ class Owner
   end 
   
   def list_pets
-    @pets.length 
+    @pets.
     
   end 
 end 
