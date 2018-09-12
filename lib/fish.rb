@@ -1,19 +1,9 @@
-require_relative 'owner.rb'
-require_relative 'dog.rb'
-require_relative 'cat.rb'
-
-class Fish
-  attr_reader :name, :mood
-    
-  @@fish = []
+class Fish 
+  attr_accessor :mood
+  attr_reader :name
   
-    def initialize(name)
-      @name = name
-      @mood = "nervous"
-      @@fish << self
-    end
-    
-    def mood=(mood)
-     @mood = mood
-   end      
-end
+  def initialize(name, mood = "nervous")
+    @name = name 
+    @mood = mood
+  end
+end 
