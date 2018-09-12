@@ -65,7 +65,7 @@ class Owner
   end 
   
   def list_pets
-    @pets.size
+    dogs = @pets[dogs].size
     
   end 
 end 
